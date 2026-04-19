@@ -4,7 +4,7 @@
 2. LAPTOP WITH INTERNET CONNECTION
 
 #### Step 1: ON YOUR LAPTOP navigate to https://www.edgeimpulse.com/ and click "Get Started"
-![alt text](/Edge-Impulse-Workshop-Series/Part-1/step1_1.png)
+![alt text](/Edge-Impulse-Workshop-Series/Part-1/step1.png)
 
 #### Step 2.1: Create a free account using either of the provided options. ![alt text](/Edge-Impulse-Workshop-Series/Part-1/step2_2.png)
 
@@ -43,7 +43,18 @@
 #### Before we move on notice how the features of the data I collected are not split into clear groupings by class. How do you think that will affect the model trained on this data? Discuss this with someone next to you. 
 ![alt text](/Edge-Impulse-Workshop-Series/Part-1/step%2012.png)
 
-#### Step 13: On this step you will see the step where Edge Impulse trains the model on the previously extracted features. At the top left you can see the all the training settings you can change, we will explore how those setting affect the model in part 3 of this workshop series.  ![alt text](/Edge-Impulse-Workshop-Series/Part-1/step13.png)
+#### Step 13: On this step you will see the step where Edge Impulse trains the model on the previously extracted features. At the top left you can see the all the training settings you can change.
+#### After the initial training is finished you cab minimize the window on the bottom right and play around with the training setting and explore how they affect model's performance. (Spend 5-10 minutes to let the attendees play around with it)![alt text](/Edge-Impulse-Workshop-Series/Part-1/step13.png)
+
+#### Once the model finished training you will see a tab with model's performance. The metrics we care about right now are: Accuracy and Loss.
+1. **Accuracy** is how correct the model is predicting overall in the validation set. The higher the better.
+2. **Loss** is a summation of the erros made for each sample in the validation set. The lower the better.
+![alt text](/Edge-Impulse-Workshop-Series/Part-1/step13_performance.png)
+
+#### Step 14: After clicking "Next, take your impulse for a spin" you will see this pop up. Proceed to scan it with your phone and see how your model performs on real world data!!!![](/Edge-Impulse-Workshop-Series/Part-1/step14.png)
+
+#### Step 15: After clicking "View summary to finish tutorial" you will see a congratulations window which will also show a quick review of your model's performance, but who cares about? You are now an Embedded Machine Learning Engineer!!! ![alt text](/Edge-Impulse-Workshop-Series/Part-1/step15.png)
+
 # Troubleshooting
 add known errors and mistakes here after testing this on someone.
 
