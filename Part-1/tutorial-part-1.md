@@ -1,10 +1,15 @@
 # Part 1: Getting Started with Edge Impulse
+## Who is this for?
+- placeholder 1
+- placeholder 2
+- placeholder 3
 ## Learning Outcome
 - placeholder 1
 - placeholder 2
 - placeholder 3
+
 ## Time Estimate
-- TBD
+- 45-60 minutes
 ## Pre-requisites
 1. Fully charged phone
 2. Laptop with internet connection
