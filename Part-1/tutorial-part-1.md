@@ -4,7 +4,7 @@
 - Professionals who want to expand their career prospects.
 - Hobbyist who enjoy learning various Machine Learning tools.
 ## Learning Outcome
-- A foundational understanding of the Machine Learning Pipeline.
+- An introduction to what is and how does a machine learning pipeline work.
 - What is and how to used Edge Impulse to train and deploy ML models.
 ## Time Estimate
 - 45-60 minutes
