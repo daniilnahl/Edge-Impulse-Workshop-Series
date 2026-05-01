@@ -1,13 +1,11 @@
 # Part 1: Getting Started with Edge Impulse
 ## Who is this for?
-- placeholder 1
-- placeholder 2
-- placeholder 3
+- Students curious about Machine Learning as a career path.
+- Professionals who want to expand their career prospects.
+- Hobbyist who enjoy learning various Machine Learning tools.
 ## Learning Outcome
-- placeholder 1
-- placeholder 2
-- placeholder 3
-
+- A foundational understanding of the Machine Learning Pipeline.
+- What is and how to used Edge Impulse to train and deploy ML models.
 ## Time Estimate
 - 45-60 minutes
 ## Pre-requisites
