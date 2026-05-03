@@ -37,12 +37,12 @@
 2. **Ensure good lighting:** avoid shadows and reflections.
 3. **Vary distance:** include close-ups and long distance pictures.
 4. **Keep background clear:** ensure your background is simple and free of extra objects. This helps the model focus on your object.
-5. you take pictures of this class from different angles, so the model will be able to detect this class from various perspectives.
+
 ![alt text](/Part-1/Part-1-Images/step7_1.png)
 
 #### Once you collected 30 images of the first class it will look something like this. ![alt text](/Part-1/Part-1-Images/step7_2.png)
 
-#### Steps 8 & 9: This pretty much going to be like the previous step but we are collecting 3o pictures both of the 2nd and unknown classes. Click on either of the 'collect images' boxes and start taking pictures for that respective class.
+#### Steps 8 & 9: This pretty much going to be like the previous step but we are collecting 30 pictures both of the 2nd and unknown classes. Click on either of the 'collect images' boxes and start taking pictures for that respective class.
 
 #### After all the pictures have been collected it should look like this:![alt text](/Part-1/Part-1-Images/step9.png) 
 
@@ -74,7 +74,7 @@ Notes:
 #### Step 15: After clicking "View summary to finish tutorial" you will see a congratulations window which will also show a quick review of your model's performance, but who cares about? You are now an Embedded Machine Learning Engineer!!! ![alt text](/Part-1/Part-1-Images/step15.png)
 
 # Troubleshooting
-#### What if images fails to upload partwat through?
+#### What if images fails to upload part way through?
 
 #### What if my phone disconnects or timeouts while on the collecting pictures stage?
 
