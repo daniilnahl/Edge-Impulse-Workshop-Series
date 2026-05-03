@@ -12,6 +12,10 @@
 1. Fully charged phone
 2. Laptop with internet connection
 
+## Additional Resources
+1. [Google slideshow for presentations](https://docs.google.com/presentation/d/1UIVBuwPvIvu1EBK7R0EDb1Z5nWFuEPHmMjgGr-FKbtE/edit?usp=sharing)
+
+   
 ## Start Here
 #### Step 1: ON YOUR LAPTOP navigate to https://www.edgeimpulse.com/ and click "Get Started"
 ![alt text](/Part-1/Part-1-Images/step1.png)
