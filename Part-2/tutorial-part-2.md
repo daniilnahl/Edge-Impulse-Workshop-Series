@@ -105,6 +105,7 @@ IF you rather follow written instructions, they are attached below:
 3. Extract the zip folder into your 'Downloads'
 ![alt text](/Part-2/Part-2-Images/step8-arduino_2.jpg)
 4. Copy the address of the extract folder.
+ ![alt text](/Part-2/Part-2-Images/step8-arduino_3.jpg)
 5. Open "Edit the system environment variables->Environment Variables"
 6. Select "Path->Edit..."
 7. Click "new" and paste the copied address.
