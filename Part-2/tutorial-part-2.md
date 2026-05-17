@@ -7,10 +7,16 @@
 ## Time Estimate
 - TBD
 
-## Pre-requisites
+## Pre-requisites 
+**(physical)** 
 1. Fully charged laptop with Windows 10/11
 2. Arduino Nano 33 BLE
 3. Micro-USB cable 
+
+**(software)**
+1. Installed "Desktop development with C++" via "Visual Studio Installer"
+2. Installed "npm 1.2.2" via [nvm-setup.exe 1.2.2](https://github.com/coreybutler/nvm-windows/releases). Note during installation wizard un-check these options:
+![alt text](/Part-2/Part-2-Images/nvm-pre-workshop)
 
 ## Start Here
 #### Step 1 
@@ -48,5 +54,47 @@ After selecting 'Arduino Nano 33 BLE' we are going setup a connection between th
 - [Arduino CLI](https://arduino.github.io/arduino-cli/1.4/installation/)
 
 **Make you sure you are on a machine with Windows 10/11 as this tutorial is specifically made for Windows!**
+
+#### Step 7: Installing Edge Impulse CLI
+We are going to begin by installing [Edge Impulse CLI](https://docs.edgeimpulse.com/tools/clis/edge-impulse-cli/installation). Click the hyperlink and you will be navigated to this screen where you can follow the official steps. I am going to replicate them in here as well, so its up to you whose steps you follow.
+
+**Use Command Prompt (CMD) for the installations unless stated otherwise!**
+
+---
+
+**Before we can download Edge Impulse CLI, we must download these pre-requisites:**
+###### Python 3 on your computer (if you haven't already). This hyperlink will navigate you to [Python Releases for Windows](https://www.python.org/downloads/windows/). 
+
+In this tutorial we will be installing "Python install manager" instead of the standalone python install due to simplicity sake. 
+![alt text](/Part-2/Part-2-Images/step7_python_1.png)
+![alt text](/Part-2/Part-2-Images/step7_python_2.png)
+After downloading the installer proceed to follow its installation steps. 
+
+Once that is complete you can test if you have successfully installed python by navigating to "Command Prompt" and typing "python --version". If everything was installed correctly you should see you python's version in the terminal like "Python 3.XX.X".
+
+###### To install Node.js 22 we must  install 'nvm' 1st then 'node.js' 2nd. Follow the below instructions:
+1. 
+2.
+3. Open **Command Prompt as an Administrator** and type in (to install correct version of node.js):
+```
+nvm install 22.22.3
+```
+4. To ensure you are using this version of node.js type in:
+```
+nvm use 22.22.3
+```
+
+
+To check if Node.js was installed properly open "Command Prompt" and type in:
+1. "node -v" and you should see "v22.22.3".
+2. Then type in "npm -v" and you should see "10.9.8".
+
+**NOTE YOU MUST INSTALL THIS EXACT VERSION OF NODE.js or THE EDGE IMPULSE INSTALLATION WILL FAIL!!!**
+
+###### Now we can install the Edge Impulse CLI! Open **Command Prompt** and type in:
+```
+npm install -g edge-impulse-cli --force
+```
+
 # Troubleshooting
 
