@@ -20,7 +20,8 @@ Navigate to Edge Impulse dashboard via the [following link](https://studio.edgei
 Proceed to click on "Create new project":
 ![alt text](/Part-2/Part-2-Images/part2-step2_1.png)
 
-Afterwards you will see this screen. You can give your project any name you like and other options are up up to your discretion as what you chose don't really matter for our purpose. 
+Afterwards you will see this screen. You can give your project any name you like and other options are up to your discretion as what you chose don't really matter for our purposes. 
+
 ![alt text](/Part-2/Part-2-Images/part2-step2_2.png)
 #### Step 3
 After you create your project you will be navigated to the screen below. Notice that at the top middle of your screen is your project name. **Click on the option where it says, "Collect new data":**
@@ -30,7 +31,10 @@ You will be navigated to a new screen and a pop-up called "Collect new data" wil
 We are interested in THIRD options which says, "Connect your device or development board":
 ![alt text](/Part-2/Part-2-Images/part2-step4.png)
 #### Step 5
-You will see a new screen with two options: connecting a device via data forwarded or connecting a supported device. 
+You will see a new screen with two options: 
+1. connecting a device via data forwarded 
+2. connecting a supported device.
+
 ![alt text](/Part-2/Part-2-Images/part2-step5_1.png)
 
 **Click on the option to connect a supported device** and type-in 'Arduino Nano 33 BLE' and select it:
@@ -39,10 +43,10 @@ You will see a new screen with two options: connecting a device via data forward
 
 
 #### Step 6
-Now we are going setup a connection between the Arduino microcontroller and Edge Impulse. To achieve this we will need to install:
+After selecting 'Arduino Nano 33 BLE' we are going setup a connection between the Arduino microcontroller and Edge Impulse. To achieve this we will need to install:
 - [Edge Impulse CLI](https://docs.edgeimpulse.com/tools/clis/edge-impulse-cli/installation)
 - [Arduino CLI](https://arduino.github.io/arduino-cli/1.4/installation/)
 
-
+**Make you sure you are on a machine with Windows 10/11 as this tutorial is specifically made for Windows!**
 # Troubleshooting
 
