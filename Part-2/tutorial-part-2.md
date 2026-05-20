@@ -120,13 +120,13 @@ We are now on the finish line. We have all the necessary software installed and 
 #### Step 9.1:
 1. Navigate to this [link to download latest Edge Impulse firmware](https://cdn.edgeimpulse.com/firmware/arduino-nano-33-ble-sense.zip) and the unzip it in the downloads. We will come back to it later.
 2. Connect the Arduino Nano 33 BLE to your laptop using a micro-USB cable like shown below:
-![alt text](/Part-2/Part-2-Images/step9-1-2)
+![alt text](/Part-2/Part-2-Images/step9-1-2.jpg)
 3. On the MCU press RESET twice to launch bootloader. The LED should start pulsating to indicate its in. The whole process is shown below:
-![alt text](/Part-2/Part-2-Images/step9-1-3)
+![alt text](/Part-2/Part-2-Images/step9-1-3.gif)
 4. Go back to the Edge Impulse firmware folder we unzipped into downloads and open 'flash_windows.bat':
-![alt text](/Part-2/Part-2-Images/step9-1-4)
+![alt text](/Part-2/Part-2-Images/step9-1-4.jpg)
 5. Then wait until FLASHING is complete and press RESET:
-![alt text](/Part-2/Part-2-Images/step9-1-5)
+![alt text](/Part-2/Part-2-Images/step9-1-5.gif)
 
 ## Step 10: Connecting Nano33 to Edge Impulse
 1. Open 'Terminal' and type in:
@@ -136,18 +136,18 @@ edge-impulse-daemon
 Which will open a menu to enter your username and password!
 
 Note that this menu will open if you used a google (or others) to create an account:
-![alt text](/Part-2/Part-2-Images/step10-1-1)
+![alt text](/Part-2/Part-2-Images/step10-1-1.jpg)
 Follow its instructions to resolve the issue.
 
 2. To choose the correct communication port go to 'Device Manager->Ports' there it will tell you what each 'COM' is:
-![alt text](/Part-2/Part-2-Images/step10-2)
-![alt text](/Part-2/Part-2-Images/step10-2-2)
+![alt text](/Part-2/Part-2-Images/step10-2.jpg)
+![alt text](/Part-2/Part-2-Images/step10-2-2.jpg)
 
 4. Then it prompts you to choose project. Choose the project we created at the start of this workshop:
-![alt text](/Part-2/Part-2-Images/step10-3)
+![alt text](/Part-2/Part-2-Images/step10-3.jpg)
 
 5. Name the device as prompted and then you will reach this point which means you have sucesfully connected Nano33 to Edge Impulse and are ready to train and deploy your Embedded Machine Learning Model!!! Hooray!:
-![alt text](/Part-2/Part-2-Images/step10-4)
+![alt text](/Part-2/Part-2-Images/step10-4.jpg)
 
 
 # Troubleshooting
