@@ -163,6 +163,20 @@ Follow its instructions to resolve the issue.
 ![alt text](/Part-2/Part-2-Images/step10-4.jpg)
 
 
-## Step 11: 
+## Step 11: Collecting Data
+1. Navigate back to Edge Impulse website and the project dashboard. From there find "Data acquisition".
+    - We will be creating three data classes, for example: up-and-down, left-to-right and idle. 
+    - Check for the device name you set previously to be under "Device". 
+    - Provide a "Label" for example "left-to-right".
+    - Ensure that "Sensor" is picked to be "Inertial".
+    - Other parameters leave them be.
+
+![alt text](/Part-2/Part-2-Images/step11-1.png)  
+2. Click "Start Sampling" and begin doing the movement you want to associate with this data class. ENSURE THE MOVEMENT IS EASILY REPEATABLE so the data sample within this data class stay consistent!!
+3. Sample the movement for each class, you can CHOOSE your OWN SAMPLE LENGTH, but ensure 45 seconds of data for each class!
+4. After collecting all the data your dashboard should look like this:
+![alt text](/Part-2/Part-2-Images/step11-2.png)  
+
+NOW WE ARE officially down with the Part 2 of the Workshop and are ready to move on top Part 3! Congratulations!
 # Troubleshooting
 
