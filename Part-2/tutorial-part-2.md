@@ -5,7 +5,7 @@
 - placeholder 3
 
 # Time Estimate
-- TBD
+- 1 hour
 
 # Pre-requisites 
 **(physical)** 
@@ -15,14 +15,20 @@
 
 **(software)**
 1. Installed "Build Tools for Visual Studio 2022" with "Desktop development with C++". Go to [this link](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202022) and download the below selection:
+   
 ![alt text](/Part-2/Part-2-Images/vs2022-c++.jpg)
-2. Installed "npm 1.2.2" via [nvm-setup.exe 1.2.2](https://github.com/coreybutler/nvm-windows/releases). Note during installation wizard un-check these options:
+
+
+4. Installed "npm 1.2.2" via [nvm-setup.exe 1.2.2](https://github.com/coreybutler/nvm-windows/releases). Note during installation wizard un-check these options:
+
 ![alt text](/Part-2/Part-2-Images/nvm-pre-workshop.png)
 
 # Start Here
 ### Step 1 
 Navigate to Edge Impulse dashboard via the [following link](https://studio.edgeimpulse.com/studio/965987). Then click on your profile picture icon. It will look like this:
+
 ![alt text](/Part-2/Part-2-Images/part2-step1.png)
+
 ## Step 2
 Proceed to click on "Create new project":
 ![alt text](/Part-2/Part-2-Images/part2-step2_1.png)
@@ -120,12 +126,19 @@ We are now on the finish line. We have all the necessary software installed and 
 #### Step 9.1:
 1. Navigate to this [link to download latest Edge Impulse firmware](https://cdn.edgeimpulse.com/firmware/arduino-nano-33-ble-sense.zip) and the unzip it in the downloads. We will come back to it later.
 2. Connect the Arduino Nano 33 BLE to your laptop using a micro-USB cable like shown below:
+
 ![alt text](/Part-2/Part-2-Images/step9-1-2.jpg)
+
 3. On the MCU press RESET twice to launch bootloader. The LED should start pulsating to indicate its in. The whole process is shown below:
+
 ![alt text](/Part-2/Part-2-Images/step9-1-3.gif)
+
 4. Go back to the Edge Impulse firmware folder we unzipped into downloads and open 'flash_windows.bat':
+
 ![alt text](/Part-2/Part-2-Images/step9-1-4.jpg)
+
 5. Then wait until FLASHING is complete and press RESET:
+   
 ![alt text](/Part-2/Part-2-Images/step9-1-5.gif)
 
 ## Step 10: Connecting Nano33 to Edge Impulse
@@ -146,9 +159,10 @@ Follow its instructions to resolve the issue.
 4. Then it prompts you to choose project. Choose the project we created at the start of this workshop:
 ![alt text](/Part-2/Part-2-Images/step10-3.jpg)
 
-5. Name the device as prompted and then you will reach this point which means you have sucesfully connected Nano33 to Edge Impulse and are ready to train and deploy your Embedded Machine Learning Model!!! Hooray!:
+5. Name the device as prompted and then you will reach this point which means you have sucesfully connected Nano33 to Edge Impulse and are ready to collect data for a model, Hooray!:
 ![alt text](/Part-2/Part-2-Images/step10-4.jpg)
 
 
+## Step 11: 
 # Troubleshooting
 
