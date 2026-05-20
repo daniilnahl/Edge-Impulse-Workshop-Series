@@ -1,11 +1,11 @@
 # Part 2: Setting up Data Collection on Nano33
 ## Learning Outcome
-- placeholder 1
-- placeholder 2
-- placeholder 3
+- Interface physical hardware with an Edge AI cloud platform by configuring an Edge Impulse workspace demonstrating the baseline mechanics of hardware-to-cloud data pipelines.
+- Learn how to setup a local development toolchain for Edge Impulse.
+- Learn how establish microcontroller-to-cloud connection to enable real-time sensor data collection.
 
 # Time Estimate
-- 1 hour
+- 60 minutes
 
 # Pre-requisites 
 **(physical)** 
@@ -24,7 +24,7 @@
 ![alt text](/Part-2/Part-2-Images/nvm-pre-workshop.png)
 
 # Start Here
-### Step 1 
+## Step 1 
 Navigate to Edge Impulse dashboard via the [following link](https://studio.edgeimpulse.com/studio/965987). Then click on your profile picture icon. It will look like this:
 
 ![alt text](/Part-2/Part-2-Images/part2-step1.png)
@@ -169,14 +169,18 @@ Follow its instructions to resolve the issue.
     - Check for the device name you set previously to be under "Device". 
     - Provide a "Label" for example "left-to-right".
     - Ensure that "Sensor" is picked to be "Inertial".
-    - Other parameters leave them be.
+    - Other parameters you can configure however you like. 
 
 ![alt text](/Part-2/Part-2-Images/step11-1.png)  
-2. Click "Start Sampling" and begin doing the movement you want to associate with this data class. ENSURE THE MOVEMENT IS EASILY REPEATABLE so the data sample within this data class stay consistent!!
+2. Click "Start Sampling" and begin doing the movement you want to associate with this data class. **ENSURE THE MOVEMENT IS EASILY REPEATABLE so the data sample within this data class stay consistent!!**
+
 3. Sample the movement for each class, you can CHOOSE your OWN SAMPLE LENGTH, but ensure 45 seconds of data for each class!
+
 4. After collecting all the data your dashboard should look like this:
 ![alt text](/Part-2/Part-2-Images/step11-2.png)  
 
-NOW WE ARE officially down with the Part 2 of the Workshop and are ready to move on top Part 3! Congratulations!
+
+
+#### NOW WE ARE officially done with the Part 2 of the workshop and are ready to move on to Part 3! Congratulations!
 # Troubleshooting
 
