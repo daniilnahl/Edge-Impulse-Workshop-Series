@@ -1,6 +1,8 @@
-# Part 2: Training a Model and Deploying it on Nano33
+# Part 3: Training a Model and Deploying it on Nano33
 ## Learning Outcome
-- 
+1. Train and optimize a neural network classifier using Edge Impulse based on data you collected and prepared for Machine Learning. 
+
+2. Deploy a Machine Learning model to Arduino Nano33 by exporting the model library, integrating it within the Arduino IDE, and executing real-time inferencing to trigger hardware responses.
 
 # Time Estimate
 - 60 minutes
