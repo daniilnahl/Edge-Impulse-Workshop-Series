@@ -18,8 +18,6 @@ A hands-on workshop series for building, training, and deploying small embedded 
 - [Special thanks](#special-thanks)
 - [License & contributions](#license--contributions)
 
----
-
 ## About
 This repository is a workshop-style series that walks you through using the Edge Impulse platform to build embedded ML models. Tutorials combine screenshots, narrative steps, and short code snippets so you can reproduce the exercises on your own hardware.
 
