@@ -120,7 +120,7 @@ Now the moment has come. We collected data, we trained the model, we tuned for t
 ![alt text](/Part-3/Part-3-Images/step6-5.jpg)
 
 
-In the search bar look-up "Arduino_LSM9DS1" and click "INSTALL":
+In the search bar look-up "Arduino_LSM9DS1" (or 'Arduino_BMI270_BMM150' depending on what version of Nano33 BLE you have) and click "INSTALL":
 ![alt text](/Part-3/Part-3-Images/step6-6.jpg)
 
 6. After library is processed, create a new sketch and copy and paste the below code in:
@@ -148,6 +148,7 @@ In the search bar look-up "Arduino_LSM9DS1" and click "INSTALL":
 /* Includes ---------------------------------------------------------------- */
 #include <EdgeImpulse-Workshop-Project_inferencing.h> <---------- CHANGE THIS. REPLACE IT WITH <[YOUR LIBRARY NAME].h> 
 #include <Arduino_LSM9DS1.h> //Click here to get the library: https://www.arduino.cc/reference/en/libraries/arduino_lsm9ds1/
+#include <Arduino_BMI270_BMM150.h>
 
 /* Constant defines -------------------------------------------------------- */
 #define CONVERT_G_TO_MS2    9.80665f
