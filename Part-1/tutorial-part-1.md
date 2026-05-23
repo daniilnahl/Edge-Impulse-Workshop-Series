@@ -96,10 +96,3 @@ After clicking "Next, take your impulse for a spin" you will see this pop up. Pr
 
 ## Step 15: 
 After clicking "View summary to finish tutorial" you will see a congratulations window which will also show a quick review of your model's performance, but who cares about? You are now an Embedded Machine Learning Engineer!!! ![alt text](/Part-1/Part-1-Images/step15.png)
-
-# Troubleshooting
-#### What if images fails to upload part way through?
-
-#### What if my phone disconnects or timeouts while on the collecting pictures stage?
-
-#### What to do if I clicked quit tutorial at any step of this process? 
