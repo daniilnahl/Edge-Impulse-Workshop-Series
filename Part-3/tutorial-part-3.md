@@ -126,7 +126,7 @@ In the search bar look-up "Arduino_LSM9DS1" (or 'Arduino_BMI270_BMM150' dependin
 6. After library is processed, create a new sketch and copy and paste the below code in:
 
 **Make sure to change the library name to whatever you named your library!!!**
-
+**NOTE: if you get an error about not being able to detect device on COM #, try double pressing RESET button on MCU and then flashing the code!**
 
 ```
 /* Edge Impulse ingestion SDK
