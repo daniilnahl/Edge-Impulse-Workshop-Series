@@ -9,13 +9,14 @@ A hands-on workshop series for building, training, and deploying small embedded 
 - [Prerequisites](#prerequisites)
 - [Quick start](#quick-start)
 - [Tutorials (Parts)](#tutorials-parts)
-	- [Part 1 — Getting started & data collection](#part-1---getting-started--data-collection)
-	- [Part 2 — Impulse design & feature engineering](#part-2---impulse-design--feature-engineering)
-	- [Part 3 — Training, testing & deployment](#part-3---training-testing--deployment)
+	- [Part 1 — Getting started & data collection](/Part-1/tutorial-part-1.md)
+	- [Part 2 — Impulse design & feature engineering](/Part-2/tutorial-part-2.md)
+	- [Part 3 — Training, testing & deployment](/Part-3/tutorial-part-3.md)
 - [Project structure](#project-structure)
 - [How to use these materials](#how-to-use-these-materials)
 - [Citations](#citations)
 - [Special thanks](#special-thanks)
+- [Questions & Issues](#questions--issues)
 - [License & contributions](#license--contributions)
 
 ## About
@@ -120,6 +121,9 @@ If you reproduce figures or screenshots from Edge Impulse Studio in other public
 ## Special thanks
 
 Special thanks to the Edge Impulse team for providing Edge Impulse Studio, the documentation, and example workflows that make this workshop possible.
+
+## Questions & Issues
+If you encounter any bugs or have feature requests, please open an issue in this [GitHub repository](https://github.com/daniilnahl/Edge-Impulse-Workshop-Series). For networking, collaboration, or other inquiries, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/daniil-nahliuk-4213aa322/).
 
 ## License & contributions
 
