@@ -18,8 +18,9 @@
    
 ![alt text](/Part-2/Part-2-Images/vs2022-c++.jpg)
 
+**ENSURE THIS IS THE ONLY VS BUILD TOOLS installed on your machinw or the tutorial will fail.**
 
-4. Installed "npm 1.2.2" via [nvm-setup.exe 1.2.2](https://github.com/coreybutler/nvm-windows/releases). Note during installation wizard un-check these options:
+2. Installed "npm 1.2.2" via [nvm-setup.exe 1.2.2](https://github.com/coreybutler/nvm-windows/releases). Note during installation wizard un-check these options:
 
 ![alt text](/Part-2/Part-2-Images/nvm-pre-workshop.png)
 
