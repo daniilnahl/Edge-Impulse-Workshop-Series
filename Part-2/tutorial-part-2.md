@@ -181,5 +181,3 @@ Follow its instructions to resolve the issue.
 
 
 #### NOW WE ARE officially done with the Part 2 of the workshop and are ready to move on to Part 3! Congratulations!
-# Troubleshooting
-
